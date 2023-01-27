@@ -21,7 +21,7 @@ My Capstone project for third secondary year.
 Download the project:
 
 ```
-https://github.com/MohamedYasser343/Temp-Hum-IoT-Project.git
+git clone https://github.com/MohamedYasser343/Temp-Hum-IoT-Project.git
 ```
 use command:
 ```
