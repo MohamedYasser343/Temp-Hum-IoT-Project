@@ -8,7 +8,7 @@ import (
 )
 
 func ConnectToDatabase() (*sql.DB, error) {
-	db, err := sql.Open("mysql", "snap:Snapsnap@2@tcp(92.205.60.182:3306)/CapStone")
+	db, err := sql.Open("mysql", "<DB_username>:<DB_password>@tcp(<host>:3306)/<DB_name>")
 	if err != nil {
 		log.Println(err)
 	}
