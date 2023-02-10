@@ -5,7 +5,7 @@ void main() {
   runApp(const MyApp());
 }
 
-const serverIP = "http://92.205.60.182:9090";
+const serverIP = "http://<host>:<port>";
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
